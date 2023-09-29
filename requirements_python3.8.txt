@@ -22,7 +22,7 @@ Markdown
 MarkupSafe
 matplotlib
 nibabel
-numpy
+numpy==1.23.5
 oauthlib
 opt-einsum
 packaging
