@@ -123,6 +123,6 @@ def predictArray(input_array, affine=np.eye(4), qc=None, crop=None, path_model_p
     label_array = nib.load("./tempLabels.nii.gz").get_fdata()
 
     os.remove("./tempOriginal.nii.gz")
-    os.remove("./tempLabels.nii.gz")
+    #os.remove("./tempLabels.nii.gz")
       
     return label_array
